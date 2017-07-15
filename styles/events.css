@@ -1,0 +1,83 @@
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+h1 {
+	font-family: Bungee;
+	color: black;
+	font-size: 30px;
+}
+
+h2 {
+	font-family: Muli;
+	color: white;
+	font-size: 30px;
+}
+
+#main {
+	position: relative;
+	background-color: black;
+}
+
+#main:after {
+	content : "";
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-image: url(../images/seal.png);
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+	width: 99%;
+	height: 100%;
+	opacity : 0.7;
+	z-index: -1;
+}
+
+#content {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.panel-body > p {
+	font-size: 1.2em;
+		font-weight: bold;
+}
+
+.large-text {
+	font-size: 50px;
+	color: #CFB53B;
+	font-family: Cormorant;
+}
+
+.header {
+	background-color: #333333;
+	color: white;
+	padding: 15px;
+}
+
+#second {
+	background-color: darkgray;
+	font-family: Libre;
+}
+
+th {
+	background-color: #CFB53B;
+	color: white;
+}
+
+tr, td {
+	color: grey;
+	padding: 8px;
+}
+
+table {
+	margin-top: 200px;
+	margin-bottom: 300px;
+}
+
+footer {
+	margin-top: 200px;
+}
