@@ -1,2 +1,3 @@
 # CSC111 Final
-Event Scheduler Prototype
+
+The original files used in the project. 
